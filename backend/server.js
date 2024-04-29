@@ -15,10 +15,9 @@ app.post('/register', (req, res) => {
     .then(user => {
         if(user){
             res.json("alredy exists")
-            window.alert("user alredy exits")
         }else{
             RegisterModel.create({user_name:user_name, first_name:first_name, last_name:last_name, email:email, mobile:mobile, password:password})
-            .then(result => res.json("acc created"))
+            .then(result => res.json("account created"))
             .catch(err => res.json(err))
         }
     }).catch(err => res.json(err))

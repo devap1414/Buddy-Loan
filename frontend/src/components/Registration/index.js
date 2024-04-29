@@ -19,7 +19,9 @@ const Registration = () => {
 
     .then(result =>{
       navigate("/");
-      console.log(result)})
+      console.log(result)
+      //alert("you have successfully registered please login")
+    })
     .catch(err=>console.log(err))
   }
 
