@@ -1,0 +1,107 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.login-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: po  inter;
+  width: 100%;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.register-section{
+  display: flex;
+  justify-content: left;
+}
+
+.link{
+  background-color: red;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: floralwhite;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container {
+  height: 100vh;
+  width: 30vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-container{
+  width: 40vw;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+@media screen and (max-width: 768px){
+    .main-div{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .img-container{
+        height: 40vh;
+        width: 70vw;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+}

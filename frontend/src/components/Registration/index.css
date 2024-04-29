@@ -1,0 +1,109 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=password], input[type=number], input[type=email], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.register-button {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.login-container{
+  display: flex;
+}
+
+.login-link {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  cursor: po  inter;
+  width: 60px;
+  border-radius: 15px;
+}
+
+.link-login{
+  text-decoration: none;
+  color: floralwhite;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container {
+  height: 100vh;
+  width: 30vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-container{
+    height: 100vh;
+  width: 40vw;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.apply{
+    background-color: red;
+    color: #f1f1f1;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.a{
+  display: flex;
+  justify-content: space-between;
+}
+
+.existing{
+    margin: 10px 10px 10px 0px;
+}
